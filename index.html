@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast Application</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <form id="search-form">
+          <div class="form-group">
+            <label for="text"></label>
+            <input
+              type="search"
+              id="city-input"
+              placeholder="Enter a city.."
+              required
+              class="input-city"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </div>
+        </form>
+      </header>
+
+      <div class="current-weather">
+        <div>
+          <h1 class="current-city">Kingston</h1>
+          <p class="weather-now">
+            <span class="date-time">Saturday 15:32 </span>,moderate rain <br />
+            Humidty:<strong>87%</strong>, Wind:<strong>7.k2m/h</strong>
+          </p>
+        </div>
+        <div class="current-temperature">
+          <span class="current-temperature-emoji">☀️</span>
+          <span class="current-temperature-number">14</span>
+          <span class="current-temperature-unit">°C</span>
+        </div>
+      </div>
+
+      <div class="weather-forecast">
+        <ul>
+          <li>
+            <p>
+              Sun 🌤️ <br />
+              <strong>14°C</strong> - 18°C
+            </p>
+          </li>
+          <li>
+            <p>
+              Mon 🌤️ <br />
+              <strong>14°C</strong> - 18°C
+            </p>
+          </li>
+          <li>
+            <p>
+              Tue🌤️ <br />
+              <strong>14°C</strong> - 18°C
+            </p>
+          </li>
+          <li>
+            <p>
+              Wed🌤️ <br />
+              <strong>14°C</strong> - 18°C
+            </p>
+          </li>
+          <li>
+            <p>
+              Thu🌤️ <br />
+              <strong>14°C</strong> - 18°C
+            </p>
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <div class="developer">
+          This project was coded by
+          <a href="" target="_blank"> Savannah Watson</a> and is open sourced
+          <a href="" target="_blank">on GitHub</a> and
+          <a href="" target="_blank">hosted on Netify.</a>
+        </div>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
