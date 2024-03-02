@@ -3,7 +3,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 .container {
-  background: rgb(112, 218, 13);
+  background: white;
   max-width: 650px;
   margin: 60px auto;
   padding: 30px;
